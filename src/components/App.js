@@ -18,6 +18,7 @@ const App = () => {
     
 
     let updatedtodos = todos.map(obj => obj.id === id ? objToUpdate : obj);
+    settodos(updatedtodos)
     
   }
   return (
